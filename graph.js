@@ -15,19 +15,19 @@ $(function(){ // on dom ready
           'text-outline-width': 1,
           'text-outline-color': '#333',
           'background-color': 'white',
-          'border-width': 3,
+          'border-width': 8,
           'border-color': '#333',
           'color': '#000000'
         })
     .selector('edge').css({ content: 'data(name)' }) 
       .selector(':selected')
         .css({
-          'border-width': 3,
+          'border-width': 8,
           'border-color': '#333'
         })
       .selector('edge')
         .css({
-          'opacity': 0.666,
+          'opacity': 1,
           'width': 8,
           'target-arrow-shape': 'triangle',
           'source-arrow-shape': 'circle',
