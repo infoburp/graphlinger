@@ -9,6 +9,7 @@ $(function(){ // on dom ready
         .css({
           'shape': 'ellipse',
           'width': 64,
+          'height': 64,
           'content': 'data(name)',
           'text-valign': 'center',
           'text-outline-width': 2,
