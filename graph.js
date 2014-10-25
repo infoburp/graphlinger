@@ -19,7 +19,7 @@ $(function(){ // on dom ready
           'border-color': 'white',
           'color': 'white'
         })
-    .selector('edge').css({ content: 'data(name)' }) 
+    .selector('edge').css({ content: 'data(name)', 'text-valign': 'center','color': 'grey'}) 
       .selector(':selected')
         .css({
           'border-width': 8,
