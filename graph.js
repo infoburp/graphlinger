@@ -9,7 +9,7 @@ $('#cy').cytoscape({
   style: cytoscape.stylesheet()
     .selector('node')
       .css({
-        'shape': 'circle',
+        'shape': 'ellipse',
         'width': 32,
         'content': 'data(name)',
         'text-valign': 'center',
