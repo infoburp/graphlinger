@@ -10,11 +10,11 @@ $('#cy').cytoscape({
     .selector('node')
       .css({
         'shape': 'ellipse',
-        'width': 32,
+        'width': 64,
         'content': 'data(name)',
         'text-valign': 'center',
         'text-outline-width': 2,
-        'text-outline-color': 'green',
+        'text-outline-color': '#000000',
         'background-color': 'white',
         'color': '#000000'
         
@@ -22,8 +22,8 @@ $('#cy').cytoscape({
   .selector('edge').css({ content: 'data(name)' }) 
     .selector(':selected')
       .css({
-        'border-width': 3,
-        'border-color': '#333'
+        'border-width': 4,
+        'border-color': #000000'
       })
     .selector('edge')
       .css({
