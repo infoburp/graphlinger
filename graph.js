@@ -13,8 +13,10 @@ $(function(){ // on dom ready
           'content': 'data(name)',
           'text-valign': 'center',
           'text-outline-width': 2,
-          'text-outline-color': 'green',
+          'text-outline-color': '#333',
           'background-color': 'white',
+          'border-width': 3,
+          'border-color': '#333',
           'color': '#000000'
         })
     .selector('edge').css({ content: 'data(name)' }) 
