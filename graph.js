@@ -1,4 +1,4 @@
-$(function(){ // on dom ready
+#333$(function(){ // on dom ready
   $('#cy').cytoscape({
     layout: {
       name: 'cose',
@@ -31,9 +31,9 @@ $(function(){ // on dom ready
           'width': 8,
           'target-arrow-shape': 'triangle',
           'source-arrow-shape': 'circle',
-          'line-color': 'data(faveColor)',
-          'source-arrow-color': 'data(faveColor)',
-          'target-arrow-color': 'data(faveColor)'
+          'line-color': '#333',
+          'source-arrow-color': '#333',
+          'target-arrow-color': '#333'
         })
       .selector('edge.questionable')
         .css({
