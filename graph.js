@@ -13,17 +13,17 @@ $(function(){ // on dom ready
           'content': 'data(name)',
           'text-valign': 'center',
           'text-outline-width': 1,
-          'text-outline-color': '#333',
-          'background-color': 'white',
+          'text-outline-color': 'white',
+          'background-color': 'black',
           'border-width': 8,
-          'border-color': '#333',
-          'color': '#000000'
+          'border-color': "white',
+          'color': 'white'
         })
     .selector('edge').css({ content: 'data(name)' }) 
       .selector(':selected')
         .css({
           'border-width': 8,
-          'border-color': '#333'
+          'border-color': 'grey'
         })
       .selector('edge')
         .css({
@@ -31,9 +31,9 @@ $(function(){ // on dom ready
           'width': 8,
           'target-arrow-shape': 'triangle',
           'source-arrow-shape': 'circle',
-          'line-color': '#333',
-          'source-arrow-color': '#333',
-          'target-arrow-color': '#333'
+          'line-color': 'white',
+          'source-arrow-color': 'white',
+          'target-arrow-color': 'white'
         })
       .selector('edge.questionable')
         .css({
