@@ -16,7 +16,7 @@ $(function(){ // on dom ready
           'text-outline-color': 'white',
           'background-color': 'black',
           'border-width': 8,
-          'border-color': "white',
+          'border-color': 'white',
           'color': 'white'
         })
     .selector('edge').css({ content: 'data(name)' }) 
