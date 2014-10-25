@@ -9,14 +9,14 @@ $('#cy').cytoscape({
   style: cytoscape.stylesheet()
     .selector('node')
       .css({
-        'shape': 'data(faveShape)',
-        'width': 'mapData(weight, 40, 80, 20, 60)',
+        'shape': 'circle',
+        'width': 32,
         'content': 'data(name)',
         'text-valign': 'center',
         'text-outline-width': 2,
-        'text-outline-color': 'data(faveColor)',
-        'background-color': 'data(faveColor)',
-        'color': '#fff'
+        'text-outline-color': 'green',
+        'background-color': 'white',
+        'color': '#000000'
         
       })
   .selector('edge').css({ content: 'data(name)' }) 
@@ -28,7 +28,7 @@ $('#cy').cytoscape({
     .selector('edge')
       .css({
         'opacity': 0.666,
-        'width': 'mapData(strength, 70, 100, 2, 6)',
+        'width': 8,
         'target-arrow-shape': 'triangle',
         'source-arrow-shape': 'circle',
         'line-color': 'data(faveColor)',
