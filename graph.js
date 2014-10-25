@@ -8,7 +8,7 @@ $(function(){ // on dom ready
       .selector('node')
         .css({
           'shape': 'ellipse',
-          'width': 32,
+          'width': 64,
           'content': 'data(name)',
           'text-valign': 'center',
           'text-outline-width': 2,
