@@ -12,7 +12,7 @@ $(function(){ // on dom ready
           'height': 64,
           'content': 'data(name)',
           'text-valign': 'center',
-          'text-outline-width': 1,
+          'text-outline-width': 0,
           'text-outline-color': 'white',
           'background-color': 'black',
           'border-width': 8,
